@@ -12,6 +12,7 @@ body {
   background-color: #1d0052;
   padding: 15px;
   overflow: hidden;
+  box-sizing: border-box;
 }
 .main_container{
   display: flex;
@@ -105,4 +106,26 @@ body {
   align-items: center;
   gap: 15px;
   flex-direction: column;
+}
+
+.brotherInfo{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  gap: 20px;
+  width: 100%;
+}
+.brotherText{
+  position: absolute;
+  /* display: none; */
+  color: transparent;
+  transition: all 0.4s ease-in-out;
+}
+.bondMeister{
+  right: -40px;
+  position: absolute;
 }
