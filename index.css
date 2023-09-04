@@ -8,30 +8,89 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  background-color: #1d0052;
 }
 
 #main_div {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 20px;
+  /* justify-content: center; */
+  gap: 15px;
   flex-direction: column;
+  background-color: #10002e;
+  padding: 15px;
+  border-radius: 20px;
+  /* width: 100px; */
+  /* height: 505px; */
+  transition: all 0.2s ease-in-out;
+}
+#main_div_move {
+  transition: all 0.2s ease-in-out;
+  transform: translate(-100px, 0);
 }
 
-#brother_div {
+#brother_div1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100px;
   height: 100px;
   background-color: red;
+  border-radius: 20px;
+  background-image: url("/assets/dato.jpg");
+  background-size: cover;
 }
+
+
+#brother_div2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 20px;
+  background-image: url("/assets/nodo.jpg");
+  background-size: cover;
+}
+
+#brother_div3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 20px;
+  background-image: url("/assets/vakho.jpg");
+  background-size: cover;
+}
+
+
+#brother_div4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 20px;
+  background-image: url("/assets/tsotne.jpg");
+  background-size: cover;
+}
+
+
 #first_line {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
+  flex-direction: column;
 }
+
 #second_line {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
 }
