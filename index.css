@@ -58,7 +58,7 @@ body {
   height: 100px;
   background-color: red;
   border-radius: 20px;
-  background-image: url("/assets/dato.jpg");
+  background-image: url("./assets/dato.jpg");
   background-size: cover;
 }
 
@@ -71,7 +71,7 @@ body {
   height: 100px;
   background-color: red;
   border-radius: 20px;
-  background-image: url("/assets/nodo.jpg");
+  background-image: url("./assets/nodo.jpg");
   background-size: cover;
 }
 
@@ -83,7 +83,7 @@ body {
   height: 100px;
   background-color: red;
   border-radius: 20px;
-  background-image: url("/assets/vakho.jpg");
+  background-image: url("./assets/vakho.jpg");
   background-size: cover;
 }
 
@@ -95,7 +95,7 @@ body {
   width: 100px;
   height: 100px;
   border-radius: 20px;
-  background-image: url("/assets/tsotne.jpg");
+  background-image: url("./assets/tsotne.jpg");
   background-size: cover;
 }
 
